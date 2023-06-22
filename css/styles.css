@@ -1,0 +1,252 @@
+:root {
+    /* text color */
+    --praimary-tex-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --action-white-color: #FFFFFF;
+
+    /* font-family */
+    --praimary-font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    font-family: var(--praimary-font-family);
+    color: var(--praimary-tex-color);
+    font-size: 14px;
+}
+
+/* content */
+.content,
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-link.current {
+    color: var(--accent-color);
+}
+
+/* header */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.logo-part {
+    color: #000000
+}
+
+.nav-link {
+    font-weight: 500;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.mailto-tel {
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.mailto-tel:hover,
+.mailto-tel:focus {
+    color: var(--accent-color);
+}
+
+/* visually-hidden */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* hero */
+
+.section-colr {
+    background-color: #2F303A;
+
+}
+
+.hero-titel {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    color: var(--action-white-color);
+
+}
+
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: var(--action-white-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    /* cursor: pointer; */
+    border: none;
+}
+
+/* .hero-btn:hover, */
+/* .header-btn:focus{ */
+/* background-color: #FFFFFF; */
+/* color: #757575; */
+/* } */
+
+.slogan {
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+
+}
+
+.desc {
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+
+/* section-subtitle*/
+
+.section-subtitle {
+    background: #F5F4FA;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.subtitle-img {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.author {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.preview {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+}
+
+.meta {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--praimary-tex-color);
+}
+
+.meta-img {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+/* filter */
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--action-white-color);
+}
+
+.benefits {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+
+.project {
+    text-decoration: none;
+}
+
+/* footer */
+
+.footer-color {
+    background-color: #2F303A;
+}
+
+.address {
+    font-style: normal;
+}
+
+.logo-footer {
+    color: #FFFFFF;
+}
+
+.footer-link {
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color)
+}
+
+.map-link {
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.map-link:hover,
+.map-link:focus {
+    color: var(--accent-color)
+}
