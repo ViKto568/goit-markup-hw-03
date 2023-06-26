@@ -10,6 +10,16 @@
 
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: var(--praimary-font-family);
     color: var(--praimary-tex-color);
@@ -23,6 +33,8 @@ body {
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -31,6 +43,16 @@ body {
 }
 
 /* header */
+ 
+.container {
+    margin-top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid teal ;
+
+}
+
 .logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -88,12 +110,14 @@ body {
 
 /* hero */
 
-.section-colr {
+.Hero {
     background-color: #2F303A;
-
+    text-align: center;
 }
 
 .hero-titel {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
