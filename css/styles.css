@@ -46,11 +46,10 @@ img {
 }
 
 .container {
-    margin-top: 2px;
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
-    /* outline: 2px solid teal; */
+    outline: 2px solid teal;
 }
 
 
@@ -471,7 +470,6 @@ img {
 
 .address {
     font-style: normal;
-    padding-top: 2px;
     padding-bottom: 60px;
 }
 
@@ -481,7 +479,6 @@ img {
 
 .footer-link {
     padding-top: 9px;
-    padding-bottom: 9px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
