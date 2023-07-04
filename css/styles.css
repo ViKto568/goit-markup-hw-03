@@ -50,7 +50,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 1170px;
-    outline: 2px solid teal;
+    /* outline: 2px solid teal; */
 }
 
 
@@ -145,6 +145,10 @@ img {
 .main-flex, nav{
     display: flex;
     align-items: center;
+}
+
+.line {
+    border-bottom: 1px solid #ECECEC;
 }
 
 
