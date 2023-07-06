@@ -46,9 +46,11 @@ img {
 }
 
 .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
     /* outline: 2px solid teal; */
 }
 
@@ -172,11 +174,15 @@ img {
 
 
 .hero-btn {
+    min-width: 200px;
+    padding: 10px 20px;
+
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
+
     color: var(--action-white-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -310,6 +316,7 @@ img {
 .subtitle-img {
     display: flex;
     flex-direction: column;
+
     background-color: var(--action-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -372,6 +379,8 @@ img {
     font-weight: 500;
     font-size: 16px;
 
+    padding: 6px 20px;
+
     line-height: calc(26 / 16);
     letter-spacing: 0.03em;
 
@@ -394,7 +403,6 @@ img {
 }
 
 .benefits {
-    padding-top: 20px;
     margin-top: 0;
     margin-bottom: 4px;
 
@@ -402,17 +410,18 @@ img {
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
+
     color: var(--secondary-text-color);
 }
 
 .meta {
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 20px;
-
+     
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
+    
     color: var(--praimary-tex-color);
 }
 
@@ -435,7 +444,9 @@ img {
 }
 
 .project-container {
-    width: 1170px;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 16px;
@@ -448,12 +459,20 @@ img {
 }
 
 .meta-img {
+    display: flex;
     width: 370px;
     margin: 15px;
 }
 
 .meta-img:nth-last-child(-n + 3){
     margin-bottom: 0;
+}
+
+.div {
+    display: block;
+    justify-content: flex-start;
+    padding: 24px 20px;
+    /* outline: 2px solid teal; */
 }
 
 /* footer */
